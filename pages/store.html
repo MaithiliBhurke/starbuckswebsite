@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/store.css">
+    <link rel="shortcut icon" href="../imgs/Starbucks_Coffee_Logo.png" type="image/x-icon">
+  
+    <title>Store : Starbucks Coffee Company</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <div>
+                <img class="logo-img" src="../imgs/Starbucks_Coffee_Logo.png" alt="logo">
+            </div>
+
+            <div>
+                <img class="icon" id="bar" src="../imgs/icon-menu.png" alt="">
+                <img class="icon" id="cross" src="../imgs/cross.png" alt="">
+            </div>
+        </div>
+
+        <div class="nav">
+            <div>
+                <ul>
+                    <a href="./menu.html" >
+                        <li>MENU</li>
+                    </a>
+
+                    <a href="#" >
+                        <li>REWARD</li>
+                    </a>
+
+                    <a href="#" >
+                        <li>GIFT CARD</li>
+                    </a>
+
+                </ul>
+            </div>
+
+            <div class="nav-option">
+                <div class="location">
+                    <!-- <i class="fa-solid fa-location-dot"></i> -->
+                    <img class="icon" src="../imgs/location_icon.png" alt="">
+                    <div>
+                        <a class="store" href="#">
+                            Find a store
+                        </a>
+                    </div>
+                </div>
+
+                <div class="account">
+                    <div>
+                        <a class="button1" href="#">Sign in</a>
+                    </div>
+
+                    <div>
+                        <a class="button2" href="#">Join now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="store">
+        <div class="store-search">
+            <div>
+                <div class="search">
+                    <input type="text" placeholder="Find a Store" id="search">
+                    <img class="icon" src="/imgs/searchicon.jpg" alt="" id="search-icon">
+                </div>
+                <a href="#" class="button1">Filter</a>
+            </div>
+
+            <div>
+                <h2>We are unable to access your exact location</h2>
+                <span>To find a Starbucks store, use the search feature, navigate using the map, or turn on location services.</span>
+            </div>
+
+            <div>
+                <a href="#">
+                    <span>Privacy Notice</span>
+                    <img src="/imgs/arrowicon.jpg" alt="" class="icon">
+                </a>
+
+                <a href="#">
+                    <span>Terms of Use</span>
+                    <img src="/imgs/arrowicon.jpg" alt="" class="icon">
+                </a>
+
+                <a href="#">
+                    <span>Do Not Share My Personal Information</span>
+                    <img src="/imgs/arrowicon.jpg" alt="" class="icon">
+                </a>
+            </div>
+        </div>
+
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+    
+</body>
+</html>
